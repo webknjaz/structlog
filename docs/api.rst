@@ -209,6 +209,9 @@ API Reference
 .. autoclass:: BoundLogger
    :members: bind, unbind, new, debug, info, warning, warn, error, critical, exception, log
 
+.. autoclass:: AsyncBoundLogger
+   :members: bind, unbind, new, debug, info, warning, warn, error, critical, exception, log
+
 .. autoclass:: LoggerFactory
    :members: __call__
 

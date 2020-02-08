@@ -36,7 +36,7 @@ EXTRAS_REQUIRE = {
         "coverage[toml]",
         "freezegun>=0.2.8",
         "pretend",
-        "pytest-asyncio; python_version>='3.7'",
+        "pytest-asyncio",
         "pytest-randomly",
         "pytest>=3.3.0",
         "python-rapidjson",

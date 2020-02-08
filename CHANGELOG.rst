@@ -26,7 +26,8 @@ Deprecations:
 Changes:
 ^^^^^^^^
 
-*none*
+- Added ``structlog.stdlib.AsyncBoundLogger`` that executes logging calls in a thread executor and therefore doesn't block.
+  `#245 <https://github.com/hynek/structlog/pull/245>`_
 
 
 ----
